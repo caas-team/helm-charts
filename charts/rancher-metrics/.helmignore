@@ -1,0 +1,3 @@
+my-values.yaml
+charts/caas-project-monitoring
+charts/rancher-servicemonitor

@@ -1,0 +1,26 @@
+apiVersion: v2
+annotations:
+  catalog.cattle.io/display-name: Rancher Metrics
+name: rancher-metrics
+description: A Helm chart for Rancher Metrics
+version: "0.0.1"
+appVersion: "0.0.1"
+keywords:
+  - monitoring
+dependencies:
+  - name: caas-project-monitoring
+    version: "1.2.6"
+    repository: "oci://ghcr.io/caas-team/charts"
+  - name: rancher-servicemonitor
+    version: "0.0.1"
+    repository: "oci://ghcr.io/eumel8/charts"
+sources:
+  - https://github.com/caas-team/caas-project-monitoring
+  - https://github.com/eumel8/rancher-servicemonitor
+maintainers:
+  - name: eumel8
+    email: f.kloeker@telekom.de
+    url: https://www.telekom.com
+  - name: puffitos
+    email: bruno.bressi@telekom.de
+    url: https://www.telekom.com

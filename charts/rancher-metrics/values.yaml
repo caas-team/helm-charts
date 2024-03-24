@@ -1,0 +1,35 @@
+caas-project-monitoring:
+  global:
+    cattle:
+      # set clusterId for Grafana reachable via RancherProxy (not necessary in deployment via App store)
+      #clusterId: c-xxxxx
+      # projectId: &projectId p-xxxxx
+      projectId: &projectId
+  kube-prometheus-stack:
+    alertmanager:
+      enabled: false
+    defaultRules:
+      create: false
+    prometheus:
+      prometheusSpec:
+        additionalScrapeConfigs: []
+        retention: 1000d
+        storageSpec: {}
+        ## Using PersistentVolumeClaim
+        ##
+        #  volumeClaimTemplate:
+        #    spec:
+        #      storageClassName: gluster
+        #      accessModes: ["ReadWriteOnce"]
+        #      resources:
+        #        requests:
+        #          storage: 50Gi
+rancher-servicemonitor:
+  env:
+    - name: RANCHER_URL
+      value: https://rancher.example.com/v3
+#  - name: RANCHER_TOKEN
+#    valueFrom:
+#      secretKeyRef:
+#        name: ranchertoken
+#        key: RANCHER_TOKEN
