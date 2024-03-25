@@ -4,8 +4,38 @@ entries:
   - annotations:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
+    appVersion: 0.0.2
+    created: "2024-03-25T08:41:31.68465+01:00"
+    dependencies:
+    - name: caas-project-monitoring
+      repository: oci://ghcr.io/caas-team/charts
+      version: 1.2.6
+    - name: rancher-servicemonitor
+      repository: oci://ghcr.io/eumel8/charts
+      version: 0.0.2
+    description: A Helm chart for Rancher Metrics
+    digest: 3a2fdc2414df2b19448dc6f310928a28afaa36399e9591828e53a947d11b00c7
+    keywords:
+    - monitoring
+    maintainers:
+    - email: f.kloeker@telekom.de
+      name: eumel8
+      url: https://www.telekom.com
+    - email: bruno.bressi@telekom.de
+      name: puffitos
+      url: https://www.telekom.com
+    name: rancher-metrics
+    sources:
+    - https://github.com/caas-team/caas-project-monitoring
+    - https://github.com/eumel8/rancher-servicemonitor
+    urls:
+    - https://caas-team.github.io/helm-charts/rancher-metrics-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      catalog.cattle.io/display-name: Rancher Metrics
+    apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-03-24T22:24:29.893484+01:00"
+    created: "2024-03-25T08:41:31.659278+01:00"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -31,4 +61,4 @@ entries:
     urls:
     - https://caas-team.github.io/helm-charts/rancher-metrics-0.0.1.tgz
     version: 0.0.1
-generated: "2024-03-24T22:24:29.856696+01:00"
+generated: "2024-03-25T08:41:31.631858+01:00"
