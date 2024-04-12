@@ -3,16 +3,16 @@ annotations:
   catalog.cattle.io/display-name: Rancher Metrics
 name: rancher-metrics
 description: A Helm chart for Rancher Metrics
-version: "0.0.4"
-appVersion: "0.0.4"
+version: "0.0.5"
+appVersion: "0.0.5"
 keywords:
   - monitoring
 dependencies:
   - name: caas-project-monitoring
-    version: "1.2.6"
+    version: "1.2.8"
     repository: "oci://ghcr.io/caas-team/charts"
   - name: rancher-servicemonitor
-    version: "0.0.3"
+    version: "0.1.0"
     repository: "oci://ghcr.io/eumel8/charts"
 sources:
   - https://github.com/caas-team/caas-project-monitoring
