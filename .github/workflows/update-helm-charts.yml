@@ -1,0 +1,34 @@
+name: Update and Index Helm Charts
+
+on:
+  repository_dispatch:
+    types: [new-helm-chart-version]
+
+jobs:
+  update-charts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up Helm
+        run: |
+          curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+          helm version
+
+      - name: Log In to Helm Registry
+        run: |
+          helm registry login ghcr.io -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch and Store New Chart
+        run: |
+          helm pull oci://ghcr.io/caas-team/charts/${{ github.event.client_payload.chart }} --version ${{ github.event.client_payload.version }}
+
+      - name: Update Index File
+        run: |
+          helm repo index --url https://caas-team.github.io/helm-charts/ .
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -A
+          git commit -m "Update Helm chart and index.yaml for ${${{ github.event.client_payload.chart }}@${{ github.event.client_payload.version }}"
+          git push
