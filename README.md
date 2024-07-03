@@ -18,8 +18,11 @@ helm repo index --url https://caas-team.github.io/helm-charts/ .
 Content:
 --------
 
+* caas-demoapp
 * [rancher-metrics/](charts/rancher-metrics) -
   [(src)](https://github.com/caas-team/helm-charts/tree/main/charts/rancher-metrics)
+* py-kube-downscaler -
+  [(src)](https://github.com/caas-team/py-kube-downscaler)
 
 
 Credits:
