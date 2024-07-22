@@ -3,7 +3,7 @@ entries:
   caas-demoapp:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-07-11T10:34:56.858282141Z"
+    created: "2024-07-22T11:04:01.120217826Z"
     description: CaaS Demoapp
     digest: 163cfa599421a06801e049b6ed87ed5ae13498aa50a4fe87ca452633a3c9a1c6
     home: https://caas.telekom.de
@@ -24,8 +24,18 @@ entries:
     version: 0.0.5
   py-kube-downscaler:
   - apiVersion: v2
+    appVersion: 24.7.1
+    created: "2024-07-22T11:04:01.126109957Z"
+    description: A Helm chart for deploying py-kube-downscaler
+    digest: 61ed2526e2e1885eb7e20ff295ae33572da3588a99c3e86aea376dc1f86b23bd
+    name: py-kube-downscaler
+    type: application
+    urls:
+    - https://caas-team.github.io/helm-charts/py-kube-downscaler-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
     appVersion: 24.7.0
-    created: "2024-07-11T10:34:56.864210593Z"
+    created: "2024-07-22T11:04:01.125154789Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 75ebcf711fb72f54dd3c02da66cc822dd917d86cd8baa26af42233cfb5486e1f
     name: py-kube-downscaler
@@ -35,7 +45,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 24.5.2
-    created: "2024-07-11T10:34:56.863221274Z"
+    created: "2024-07-22T11:04:01.124196905Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 414ffc6a0376a3eb7aa7a3743f9da647fab640db6d45ca1fb7e765796837bcbf
     name: py-kube-downscaler
@@ -45,7 +55,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 24.5.2
-    created: "2024-07-11T10:34:56.862159038Z"
+    created: "2024-07-22T11:04:01.123244502Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 857e128120b660e554db8a27558be26e21cb8d0620ed6de8a44a54b926162497
     name: py-kube-downscaler
@@ -55,7 +65,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 24.5.0
-    created: "2024-07-11T10:34:56.861036599Z"
+    created: "2024-07-22T11:04:01.122301927Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: bbdc0efc2f220b545fd149f7c95379324da5ecff3a61232aedf847b288bbc572
     name: py-kube-downscaler
@@ -65,7 +75,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 24.4.0
-    created: "2024-07-11T10:34:56.858966097Z"
+    created: "2024-07-22T11:04:01.121313977Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 521606bd193db9fc106ef466e5d66535c66a192546ee15191518e988b373cc9f
     name: py-kube-downscaler
@@ -75,7 +85,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 23.2.0
-    created: "2024-07-11T10:34:56.858630807Z"
+    created: "2024-07-22T11:04:01.120949549Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 67a0c5a7567445c4289c2c6b9981356db3a2754862dd1e55c3cb8af23ffad46a
     name: py-kube-downscaler
@@ -88,7 +98,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.8
-    created: "2024-07-11T10:34:57.081647283Z"
+    created: "2024-07-22T11:04:01.317452927Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -118,7 +128,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.7
-    created: "2024-07-11T10:34:57.049528034Z"
+    created: "2024-07-22T11:04:01.294303747Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -148,7 +158,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.6
-    created: "2024-07-11T10:34:57.015115568Z"
+    created: "2024-07-22T11:04:01.270313808Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -178,7 +188,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.5
-    created: "2024-07-11T10:34:56.990435953Z"
+    created: "2024-07-22T11:04:01.246246468Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -208,7 +218,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.4
-    created: "2024-07-11T10:34:56.962884202Z"
+    created: "2024-07-22T11:04:01.221168728Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -238,7 +248,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.3
-    created: "2024-07-11T10:34:56.937514574Z"
+    created: "2024-07-22T11:04:01.197296741Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -268,7 +278,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.2
-    created: "2024-07-11T10:34:56.913468311Z"
+    created: "2024-07-22T11:04:01.174121569Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -298,7 +308,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-07-11T10:34:56.888293683Z"
+    created: "2024-07-22T11:04:01.149868302Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -324,4 +334,4 @@ entries:
     urls:
     - https://caas-team.github.io/helm-charts/rancher-metrics-0.0.1.tgz
     version: 0.0.1
-generated: "2024-07-11T10:34:56.856969324Z"
+generated: "2024-07-22T11:04:01.118655567Z"
