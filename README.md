@@ -1,12 +1,10 @@
 Helm chart repo for our public Helm charts, and helper charts to apply configuration.
 
-Setup:
-------
+# Setup
 
 * configure repo for Github pages, public endpoint is https://caas-team.github.io/helm-charts/
 
-Usage:
-------
+# Usage
 
 * put the chart packages into the repo
 * (re-)create the repo index page
@@ -15,8 +13,7 @@ Usage:
 helm repo index --url https://caas-team.github.io/helm-charts/ .
 ```
 
-Content:
---------
+# Content
 
 * caas-demoapp
 * [rancher-metrics/](charts/rancher-metrics) -
@@ -25,8 +22,7 @@ Content:
   [(src)](https://github.com/caas-team/py-kube-downscaler)
 
 
-Credits:
---------
+# Credits
 
 inspired by [@mattiaperi](https://medium.com/@mattiaperi/create-a-public-helm-chart-repository-with-github-pages-49b180dbb417)
 
