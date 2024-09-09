@@ -1,4 +1,4 @@
-Helm chart repo for unintented Helm charts, and helper charts to apply configuration.
+Helm chart repo for our public Helm charts, and helper charts to apply configuration.
 
 Setup:
 ------
