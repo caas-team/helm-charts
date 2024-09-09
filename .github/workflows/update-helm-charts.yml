@@ -5,6 +5,17 @@ on:
     types: [new-helm-chart-version]
 
 jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions: write-all
+
+    steps:
+      - name: Delete deployment
+        uses: strumwolf/delete-deployment-environment@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          environment: github-pages
+          onlyRemoveDeployments: true
   update-charts:
     runs-on: ubuntu-latest
     steps:
@@ -26,6 +37,8 @@ jobs:
 
       - name: Update Index File
         run: |
+          mkdir -p ${{ github.event.client_payload.chart }}
+          mv ${{ github.event.client_payload.chart }}*.tgz ${{ github.event.client_payload.chart }}
           helm repo index --url https://caas-team.github.io/helm-charts/ .
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
