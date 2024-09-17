@@ -3,7 +3,7 @@ entries:
   caas-demoapp:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-09-16T12:00:37.094263682Z"
+    created: "2024-09-17T12:03:19.624942644Z"
     description: CaaS Demoapp
     digest: 163cfa599421a06801e049b6ed87ed5ae13498aa50a4fe87ca452633a3c9a1c6
     home: https://caas.telekom.de
@@ -24,8 +24,18 @@ entries:
     version: 0.0.5
   go-kube-downscaler:
   - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2024-09-17T12:03:19.626942462Z"
+    description: A Helm chart for deploying the go-kube-downscaler
+    digest: b5cf3cd5c58d7235fae7b3e648c5bb54d0c303d16b28d7e8833a8db46c86df90
+    name: go-kube-downscaler
+    type: application
+    urls:
+    - https://caas-team.github.io/helm-charts/go-kube-downscaler/go-kube-downscaler-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-09-16T12:00:37.094982787Z"
+    created: "2024-09-17T12:03:19.626291682Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: a16dc47401047913f03eb2cd1aa8bfa20e5663991782bb8b70a3e59f0ef0e61f
     name: go-kube-downscaler
@@ -35,7 +45,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-09-16T12:00:37.094639981Z"
+    created: "2024-09-17T12:03:19.625611498Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: 4fea362d93ac24e2957f839fa96dd0bfd12b59e925d37a2834997e1be6a4c425
     name: go-kube-downscaler
@@ -46,7 +56,7 @@ entries:
   py-kube-downscaler:
   - apiVersion: v2
     appVersion: 24.8.3
-    created: "2024-09-16T12:00:37.105278332Z"
+    created: "2024-09-17T12:03:19.641484573Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: e2c53d26ebd070b15b842e00edf7d17e4835f319324f4df228f9ddcba3ef68ff
     name: py-kube-downscaler
@@ -56,7 +66,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 24.8.2
-    created: "2024-09-16T12:00:37.10429725Z"
+    created: "2024-09-17T12:03:19.640567174Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 19ad84e9e825ffb498210f9de9a895a514e6f99f600d46183cdcaa774ef63953
     name: py-kube-downscaler
@@ -66,7 +76,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 24.8.1
-    created: "2024-09-16T12:00:37.103379385Z"
+    created: "2024-09-17T12:03:19.639637021Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 6d0c510a757b8c7ee6acd54ccbc37c6f494fc34fbaecd6764ad966a54f4c4a8a
     name: py-kube-downscaler
@@ -76,7 +86,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 24.8.0
-    created: "2024-09-16T12:00:37.102469175Z"
+    created: "2024-09-17T12:03:19.638444316Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 65ece6df4fcc8cc8bd5ddd65b8b5c17059e2089c95894d9bc81389690d0dedb9
     name: py-kube-downscaler
@@ -86,7 +96,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 24.7.1
-    created: "2024-09-16T12:00:37.101537424Z"
+    created: "2024-09-17T12:03:19.637508883Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 61ed2526e2e1885eb7e20ff295ae33572da3588a99c3e86aea376dc1f86b23bd
     name: py-kube-downscaler
@@ -96,7 +106,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 24.7.0
-    created: "2024-09-16T12:00:37.100534932Z"
+    created: "2024-09-17T12:03:19.635794838Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 75ebcf711fb72f54dd3c02da66cc822dd917d86cd8baa26af42233cfb5486e1f
     name: py-kube-downscaler
@@ -106,7 +116,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 24.5.2
-    created: "2024-09-16T12:00:37.099585619Z"
+    created: "2024-09-17T12:03:19.633515938Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 414ffc6a0376a3eb7aa7a3743f9da647fab640db6d45ca1fb7e765796837bcbf
     name: py-kube-downscaler
@@ -116,7 +126,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 24.5.2
-    created: "2024-09-16T12:00:37.098636055Z"
+    created: "2024-09-17T12:03:19.631784614Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 857e128120b660e554db8a27558be26e21cb8d0620ed6de8a44a54b926162497
     name: py-kube-downscaler
@@ -126,7 +136,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 24.5.0
-    created: "2024-09-16T12:00:37.097682845Z"
+    created: "2024-09-17T12:03:19.629980754Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: bbdc0efc2f220b545fd149f7c95379324da5ecff3a61232aedf847b288bbc572
     name: py-kube-downscaler
@@ -136,7 +146,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 24.4.0
-    created: "2024-09-16T12:00:37.096327575Z"
+    created: "2024-09-17T12:03:19.628125548Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 521606bd193db9fc106ef466e5d66535c66a192546ee15191518e988b373cc9f
     name: py-kube-downscaler
@@ -146,7 +156,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 23.2.0
-    created: "2024-09-16T12:00:37.09563583Z"
+    created: "2024-09-17T12:03:19.627546433Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 67a0c5a7567445c4289c2c6b9981356db3a2754862dd1e55c3cb8af23ffad46a
     name: py-kube-downscaler
@@ -159,7 +169,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.8
-    created: "2024-09-16T12:00:37.311270634Z"
+    created: "2024-09-17T12:03:19.851533861Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -189,7 +199,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.7
-    created: "2024-09-16T12:00:37.286435676Z"
+    created: "2024-09-17T12:03:19.825927645Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -219,7 +229,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.6
-    created: "2024-09-16T12:00:37.255998773Z"
+    created: "2024-09-17T12:03:19.803269868Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -249,7 +259,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.5
-    created: "2024-09-16T12:00:37.226709402Z"
+    created: "2024-09-17T12:03:19.778101139Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -279,7 +289,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.4
-    created: "2024-09-16T12:00:37.199171386Z"
+    created: "2024-09-17T12:03:19.754417483Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -309,7 +319,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.3
-    created: "2024-09-16T12:00:37.176164001Z"
+    created: "2024-09-17T12:03:19.722504818Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -339,7 +349,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.2
-    created: "2024-09-16T12:00:37.15320079Z"
+    created: "2024-09-17T12:03:19.695306356Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -369,7 +379,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-09-16T12:00:37.129991261Z"
+    created: "2024-09-17T12:03:19.671621009Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -395,4 +405,4 @@ entries:
     urls:
     - https://caas-team.github.io/helm-charts/rancher-metrics/rancher-metrics-0.0.1.tgz
     version: 0.0.1
-generated: "2024-09-16T12:00:37.093156004Z"
+generated: "2024-09-17T12:03:19.622928982Z"
