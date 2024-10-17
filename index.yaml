@@ -3,7 +3,7 @@ entries:
   caas-demoapp:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-10-01T17:40:24.526103518Z"
+    created: "2024-10-17T09:41:43.760752703Z"
     description: CaaS Demoapp
     digest: 163cfa599421a06801e049b6ed87ed5ae13498aa50a4fe87ca452633a3c9a1c6
     home: https://caas.telekom.de
@@ -25,7 +25,7 @@ entries:
   go-kube-downscaler:
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2024-10-01T17:40:24.528279737Z"
+    created: "2024-10-17T09:41:43.762953515Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: 6a3c5980e35c975e62c274a3f1c9854c74df9b090a4e91da5123975444b5389b
     icon: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/deployments/chart/icon.svg
@@ -49,7 +49,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2024-10-01T17:40:24.527900279Z"
+    created: "2024-10-17T09:41:43.762568696Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: 4af86219b2b5f76b79de9bfcdc68728b4a82d15eb2aa5a1fc504acfac289be31
     icon: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/deployments/chart/icon.svg
@@ -73,7 +73,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2024-10-01T17:40:24.527515422Z"
+    created: "2024-10-17T09:41:43.762174069Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: 6337bb0a9dc4acb762e31f9f6fcf6c608722cbaffc4384a42705049baf89c28e
     name: go-kube-downscaler
@@ -83,7 +83,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2024-10-01T17:40:24.527177802Z"
+    created: "2024-10-17T09:41:43.761809167Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: b5cf3cd5c58d7235fae7b3e648c5bb54d0c303d16b28d7e8833a8db46c86df90
     name: go-kube-downscaler
@@ -93,7 +93,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-10-01T17:40:24.526829723Z"
+    created: "2024-10-17T09:41:43.761460616Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: a16dc47401047913f03eb2cd1aa8bfa20e5663991782bb8b70a3e59f0ef0e61f
     name: go-kube-downscaler
@@ -103,7 +103,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-01T17:40:24.526470442Z"
+    created: "2024-10-17T09:41:43.761108769Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: 4fea362d93ac24e2957f839fa96dd0bfd12b59e925d37a2834997e1be6a4c425
     name: go-kube-downscaler
@@ -113,8 +113,18 @@ entries:
     version: 1.0.0
   py-kube-downscaler:
   - apiVersion: v2
+    appVersion: 24.10.1
+    created: "2024-10-17T09:41:43.76646228Z"
+    description: A Helm chart for deploying py-kube-downscaler
+    digest: b2ef8d60ed19517b894ee1388d603f75f81096945b26c83b8541155750b5b7d4
+    name: py-kube-downscaler
+    type: application
+    urls:
+    - https://caas-team.github.io/helm-charts/py-kube-downscaler/py-kube-downscaler-0.2.10.tgz
+    version: 0.2.10
+  - apiVersion: v2
     appVersion: 24.10.0
-    created: "2024-10-01T17:40:24.539485488Z"
+    created: "2024-10-17T09:41:43.774582648Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: a095080a2718cac87517804617aaf05d096693770331fa3c66d2fcd8981639c1
     name: py-kube-downscaler
@@ -124,7 +134,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 24.8.3
-    created: "2024-10-01T17:40:24.538555985Z"
+    created: "2024-10-17T09:41:43.773638153Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: e2c53d26ebd070b15b842e00edf7d17e4835f319324f4df228f9ddcba3ef68ff
     name: py-kube-downscaler
@@ -134,7 +144,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 24.8.2
-    created: "2024-10-01T17:40:24.537633263Z"
+    created: "2024-10-17T09:41:43.772730678Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 19ad84e9e825ffb498210f9de9a895a514e6f99f600d46183cdcaa774ef63953
     name: py-kube-downscaler
@@ -144,7 +154,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 24.8.1
-    created: "2024-10-01T17:40:24.536721503Z"
+    created: "2024-10-17T09:41:43.771825748Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 6d0c510a757b8c7ee6acd54ccbc37c6f494fc34fbaecd6764ad966a54f4c4a8a
     name: py-kube-downscaler
@@ -154,7 +164,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 24.8.0
-    created: "2024-10-01T17:40:24.535791989Z"
+    created: "2024-10-17T09:41:43.770908143Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 65ece6df4fcc8cc8bd5ddd65b8b5c17059e2089c95894d9bc81389690d0dedb9
     name: py-kube-downscaler
@@ -164,7 +174,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 24.7.1
-    created: "2024-10-01T17:40:24.534838851Z"
+    created: "2024-10-17T09:41:43.769958649Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 61ed2526e2e1885eb7e20ff295ae33572da3588a99c3e86aea376dc1f86b23bd
     name: py-kube-downscaler
@@ -174,7 +184,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 24.7.0
-    created: "2024-10-01T17:40:24.533875544Z"
+    created: "2024-10-17T09:41:43.769013884Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 75ebcf711fb72f54dd3c02da66cc822dd917d86cd8baa26af42233cfb5486e1f
     name: py-kube-downscaler
@@ -184,7 +194,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 24.5.2
-    created: "2024-10-01T17:40:24.532513644Z"
+    created: "2024-10-17T09:41:43.768040045Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 414ffc6a0376a3eb7aa7a3743f9da647fab640db6d45ca1fb7e765796837bcbf
     name: py-kube-downscaler
@@ -194,7 +204,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 24.5.2
-    created: "2024-10-01T17:40:24.531549426Z"
+    created: "2024-10-17T09:41:43.765423349Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 857e128120b660e554db8a27558be26e21cb8d0620ed6de8a44a54b926162497
     name: py-kube-downscaler
@@ -204,7 +214,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 24.5.0
-    created: "2024-10-01T17:40:24.529845938Z"
+    created: "2024-10-17T09:41:43.764507679Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: bbdc0efc2f220b545fd149f7c95379324da5ecff3a61232aedf847b288bbc572
     name: py-kube-downscaler
@@ -214,7 +224,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 24.4.0
-    created: "2024-10-01T17:40:24.528911806Z"
+    created: "2024-10-17T09:41:43.763577601Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 521606bd193db9fc106ef466e5d66535c66a192546ee15191518e988b373cc9f
     name: py-kube-downscaler
@@ -224,7 +234,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 23.2.0
-    created: "2024-10-01T17:40:24.528598281Z"
+    created: "2024-10-17T09:41:43.763267572Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 67a0c5a7567445c4289c2c6b9981356db3a2754862dd1e55c3cb8af23ffad46a
     name: py-kube-downscaler
@@ -237,7 +247,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.8
-    created: "2024-10-01T17:40:24.743587197Z"
+    created: "2024-10-17T09:41:43.975852846Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -267,7 +277,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.7
-    created: "2024-10-01T17:40:24.718736015Z"
+    created: "2024-10-17T09:41:43.952665671Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -297,7 +307,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.6
-    created: "2024-10-01T17:40:24.692497355Z"
+    created: "2024-10-17T09:41:43.928397557Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -327,7 +337,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.5
-    created: "2024-10-01T17:40:24.667831037Z"
+    created: "2024-10-17T09:41:43.903664556Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -357,7 +367,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.4
-    created: "2024-10-01T17:40:24.64247908Z"
+    created: "2024-10-17T09:41:43.879782074Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -387,7 +397,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.3
-    created: "2024-10-01T17:40:24.618085854Z"
+    created: "2024-10-17T09:41:43.855598315Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -417,7 +427,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.2
-    created: "2024-10-01T17:40:24.595344094Z"
+    created: "2024-10-17T09:41:43.831466562Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -447,7 +457,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-10-01T17:40:24.564034927Z"
+    created: "2024-10-17T09:41:43.798578433Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -473,4 +483,4 @@ entries:
     urls:
     - https://caas-team.github.io/helm-charts/rancher-metrics/rancher-metrics-0.0.1.tgz
     version: 0.0.1
-generated: "2024-10-01T17:40:24.524982397Z"
+generated: "2024-10-17T09:41:43.758976054Z"
