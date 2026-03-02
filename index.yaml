@@ -3,7 +3,7 @@ entries:
   caas-demoapp:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-03-02T12:03:53.105208546Z"
+    created: "2026-03-02T12:47:39.302527979Z"
     description: CaaS Demoapp
     digest: 163cfa599421a06801e049b6ed87ed5ae13498aa50a4fe87ca452633a3c9a1c6
     home: https://caas.telekom.de
@@ -25,7 +25,7 @@ entries:
   go-kube-downscaler:
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2026-03-02T12:03:53.111162497Z"
+    created: "2026-03-02T12:47:39.309015207Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: 952fa16aa684c75c949402ab822571b0766b3c8cf23ffcbb4e78506dd00eb96e
     icon: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/logo/kubedownscaler.svg
@@ -48,8 +48,32 @@ entries:
     - https://caas-team.github.io/helm-charts/go-kube-downscaler/go-kube-downscaler-1.3.1.tgz
     version: 1.3.1
   - apiVersion: v2
+    appVersion: dev
+    created: "2026-03-02T12:47:39.308302203Z"
+    description: A Helm chart for deploying the go-kube-downscaler
+    digest: d625fb66999a37a83c3fd73829df4fdb6e5ee2a856b6fff9c7d6a237875d2983
+    icon: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/logo/kubedownscaler.svg
+    keywords:
+    - kube-downscaler
+    - go
+    - downscaling
+    maintainers:
+    - email: jonathan.mayer@telekom.de
+      name: jonathan-mayer
+      url: https://github.com/jonathan-mayer
+    - email: jan.taeuber@telekom.de
+      name: JTaeuber
+      url: https://github.com/JTaeuber
+    name: go-kube-downscaler
+    sources:
+    - https://github.com/caas-team/GoKubeDownscaler
+    type: application
+    urls:
+    - https://caas-team.github.io/helm-charts/go-kube-downscaler/go-kube-downscaler-1.3.1-dev.tgz
+    version: 1.3.1-dev
+  - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-03-02T12:03:53.110385822Z"
+    created: "2026-03-02T12:47:39.307598167Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: 0686cf189e71392cf7acebb6076eddb8bd1500f3cbbeb070656c56686ca9dbf9
     icon: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/logo/kubedownscaler.svg
@@ -73,7 +97,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.2.1
-    created: "2026-03-02T12:03:53.109652858Z"
+    created: "2026-03-02T12:47:39.306892397Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: aaf76ee97062fc775281c434e4b4cf19f1885ec75111e047811559739e03298c
     icon: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/logo/kubedownscaler.svg
@@ -97,7 +121,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-03-02T12:03:53.109266509Z"
+    created: "2026-03-02T12:47:39.306500248Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: f740484f5f8644923344fd6d49d8c0843c60c2c7c1947f9969dab3937e2d5b30
     icon: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/logo/kubedownscaler.svg
@@ -121,7 +145,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: dev
-    created: "2026-03-02T12:03:53.108879839Z"
+    created: "2026-03-02T12:47:39.306064237Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: ec7b2213faad20574891a01a35634e7526a096bc047bb88cd232d0c0192fd32a
     icon: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/logo/kubedownscaler.svg
@@ -145,7 +169,7 @@ entries:
     version: 1.2.0-dev
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2026-03-02T12:03:53.108497909Z"
+    created: "2026-03-02T12:47:39.305409048Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: 6a3c5980e35c975e62c274a3f1c9854c74df9b090a4e91da5123975444b5389b
     icon: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/deployments/chart/icon.svg
@@ -169,7 +193,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-03-02T12:03:53.108056317Z"
+    created: "2026-03-02T12:47:39.304468456Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: 4af86219b2b5f76b79de9bfcdc68728b4a82d15eb2aa5a1fc504acfac289be31
     icon: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/deployments/chart/icon.svg
@@ -193,7 +217,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-03-02T12:03:53.107596692Z"
+    created: "2026-03-02T12:47:39.303985105Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: 6337bb0a9dc4acb762e31f9f6fcf6c608722cbaffc4384a42705049baf89c28e
     name: go-kube-downscaler
@@ -203,7 +227,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-03-02T12:03:53.107162313Z"
+    created: "2026-03-02T12:47:39.303639724Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: b5cf3cd5c58d7235fae7b3e648c5bb54d0c303d16b28d7e8833a8db46c86df90
     name: go-kube-downscaler
@@ -213,7 +237,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-03-02T12:03:53.106173021Z"
+    created: "2026-03-02T12:47:39.303260079Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: a16dc47401047913f03eb2cd1aa8bfa20e5663991782bb8b70a3e59f0ef0e61f
     name: go-kube-downscaler
@@ -223,7 +247,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-02T12:03:53.10554943Z"
+    created: "2026-03-02T12:47:39.302896263Z"
     description: A Helm chart for deploying the go-kube-downscaler
     digest: 4fea362d93ac24e2957f839fa96dd0bfd12b59e925d37a2834997e1be6a4c425
     name: go-kube-downscaler
@@ -234,7 +258,7 @@ entries:
   py-kube-downscaler:
   - apiVersion: v2
     appVersion: 26.2.1
-    created: "2026-03-02T12:03:53.128755874Z"
+    created: "2026-03-02T12:47:39.32693996Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 0abd4cd5707a22ec17dc0846f84e95aee3ffc459793b224b7466a861b0496b62
     name: py-kube-downscaler
@@ -244,7 +268,7 @@ entries:
     version: 0.3.11
   - apiVersion: v2
     appVersion: 26.2.0
-    created: "2026-03-02T12:03:53.127800877Z"
+    created: "2026-03-02T12:47:39.326020568Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 3b4078c2669aa1f49a9179974122df24d6bfce9fff35f4cb7f4fc539b06b040c
     name: py-kube-downscaler
@@ -254,7 +278,7 @@ entries:
     version: 0.3.10
   - apiVersion: v2
     appVersion: 26.1.0
-    created: "2026-03-02T12:03:53.136079152Z"
+    created: "2026-03-02T12:47:39.334215374Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: da3e2a0d3029e0bd3ba262fc668d215331f7f4838967098aabec95b3d355ddee
     name: py-kube-downscaler
@@ -264,7 +288,7 @@ entries:
     version: 0.3.9
   - apiVersion: v2
     appVersion: 25.11.0
-    created: "2026-03-02T12:03:53.135168367Z"
+    created: "2026-03-02T12:47:39.333283748Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: e2237f83cd5c8c8ade511fd5841cb9126f18940a6fbb0ae3b29b50393c41c0ad
     name: py-kube-downscaler
@@ -274,7 +298,7 @@ entries:
     version: 0.3.8
   - apiVersion: v2
     appVersion: 25.9.0
-    created: "2026-03-02T12:03:53.134227586Z"
+    created: "2026-03-02T12:47:39.332351742Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 55b0f4c48f97918bf1c699688518e2e11631f729389d59b8cf4a9b5deb333d91
     name: py-kube-downscaler
@@ -284,7 +308,7 @@ entries:
     version: 0.3.7
   - apiVersion: v2
     appVersion: 25.8.0
-    created: "2026-03-02T12:03:53.13329982Z"
+    created: "2026-03-02T12:47:39.331303888Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: c660aeb3a338a7a68692f1173b5fbcc5932636daa34c976ad059948383a9b64c
     name: py-kube-downscaler
@@ -294,7 +318,7 @@ entries:
     version: 0.3.6
   - apiVersion: v2
     appVersion: 25.7.0
-    created: "2026-03-02T12:03:53.132339413Z"
+    created: "2026-03-02T12:47:39.329708005Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 37524ee6f26ed88abc91a84166f5afd0bdd189750afa5877d97e4f036ad519a2
     name: py-kube-downscaler
@@ -304,7 +328,7 @@ entries:
     version: 0.3.5
   - apiVersion: v2
     appVersion: 25.6.0
-    created: "2026-03-02T12:03:53.130595869Z"
+    created: "2026-03-02T12:47:39.32876017Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: d216d7584a194a34f07c9b87c890512bc219ffad52340f9acbca868d972d022a
     name: py-kube-downscaler
@@ -314,7 +338,7 @@ entries:
     version: 0.3.4
   - apiVersion: v2
     appVersion: 25.4.0
-    created: "2026-03-02T12:03:53.12966148Z"
+    created: "2026-03-02T12:47:39.327860374Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 556f5f327c51ea76c09deee168d6ca08a35597122eb73c8809a0cdb49091e73f
     name: py-kube-downscaler
@@ -324,7 +348,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 25.3.1
-    created: "2026-03-02T12:03:53.126874674Z"
+    created: "2026-03-02T12:47:39.325095585Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 3388a2855d47413111e20ff9b39a8c9d5134096d4cc999f0245941529a088cfd
     name: py-kube-downscaler
@@ -334,7 +358,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 25.3.0
-    created: "2026-03-02T12:03:53.125961305Z"
+    created: "2026-03-02T12:47:39.324202201Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 1bddcd40e4d6e9508755751e1c2ebd1fdeb0de0726dcf601eb9b55f2e1b95ed2
     name: py-kube-downscaler
@@ -344,7 +368,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 25.2.0
-    created: "2026-03-02T12:03:53.117042208Z"
+    created: "2026-03-02T12:47:39.315168107Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 539cbf1cb703599bc76bd649d6a9d3b8ff8c57594eb280635e35f23a9e2ae401
     name: py-kube-downscaler
@@ -354,7 +378,7 @@ entries:
     version: 0.2.12
   - apiVersion: v2
     appVersion: 24.11.0
-    created: "2026-03-02T12:03:53.116156039Z"
+    created: "2026-03-02T12:47:39.314244717Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 9c709a74ef79acf59f2e6f9f685775950636d390c235279373629cbe21400c1e
     name: py-kube-downscaler
@@ -364,7 +388,7 @@ entries:
     version: 0.2.11
   - apiVersion: v2
     appVersion: 24.10.1
-    created: "2026-03-02T12:03:53.115222231Z"
+    created: "2026-03-02T12:47:39.313262997Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: b2ef8d60ed19517b894ee1388d603f75f81096945b26c83b8541155750b5b7d4
     name: py-kube-downscaler
@@ -374,7 +398,7 @@ entries:
     version: 0.2.10
   - apiVersion: v2
     appVersion: 24.10.0
-    created: "2026-03-02T12:03:53.125062913Z"
+    created: "2026-03-02T12:47:39.323300773Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: a095080a2718cac87517804617aaf05d096693770331fa3c66d2fcd8981639c1
     name: py-kube-downscaler
@@ -384,7 +408,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 24.8.3
-    created: "2026-03-02T12:03:53.124151837Z"
+    created: "2026-03-02T12:47:39.322335364Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: e2c53d26ebd070b15b842e00edf7d17e4835f319324f4df228f9ddcba3ef68ff
     name: py-kube-downscaler
@@ -394,7 +418,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 24.8.2
-    created: "2026-03-02T12:03:53.12321257Z"
+    created: "2026-03-02T12:47:39.320637563Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 19ad84e9e825ffb498210f9de9a895a514e6f99f600d46183cdcaa774ef63953
     name: py-kube-downscaler
@@ -404,7 +428,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 24.8.1
-    created: "2026-03-02T12:03:53.121668426Z"
+    created: "2026-03-02T12:47:39.319742556Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 6d0c510a757b8c7ee6acd54ccbc37c6f494fc34fbaecd6764ad966a54f4c4a8a
     name: py-kube-downscaler
@@ -414,7 +438,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 24.8.0
-    created: "2026-03-02T12:03:53.120770916Z"
+    created: "2026-03-02T12:47:39.318845015Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 65ece6df4fcc8cc8bd5ddd65b8b5c17059e2089c95894d9bc81389690d0dedb9
     name: py-kube-downscaler
@@ -424,7 +448,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 24.7.1
-    created: "2026-03-02T12:03:53.119878826Z"
+    created: "2026-03-02T12:47:39.317942825Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 61ed2526e2e1885eb7e20ff295ae33572da3588a99c3e86aea376dc1f86b23bd
     name: py-kube-downscaler
@@ -434,7 +458,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 24.7.0
-    created: "2026-03-02T12:03:53.118946882Z"
+    created: "2026-03-02T12:47:39.317025476Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 75ebcf711fb72f54dd3c02da66cc822dd917d86cd8baa26af42233cfb5486e1f
     name: py-kube-downscaler
@@ -444,7 +468,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 24.5.2
-    created: "2026-03-02T12:03:53.117918959Z"
+    created: "2026-03-02T12:47:39.316101185Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 414ffc6a0376a3eb7aa7a3743f9da647fab640db6d45ca1fb7e765796837bcbf
     name: py-kube-downscaler
@@ -454,7 +478,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 24.5.2
-    created: "2026-03-02T12:03:53.114285779Z"
+    created: "2026-03-02T12:47:39.311557016Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 857e128120b660e554db8a27558be26e21cb8d0620ed6de8a44a54b926162497
     name: py-kube-downscaler
@@ -464,7 +488,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 24.5.0
-    created: "2026-03-02T12:03:53.112682936Z"
+    created: "2026-03-02T12:47:39.310541743Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: bbdc0efc2f220b545fd149f7c95379324da5ecff3a61232aedf847b288bbc572
     name: py-kube-downscaler
@@ -474,7 +498,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 24.4.0
-    created: "2026-03-02T12:03:53.111762303Z"
+    created: "2026-03-02T12:47:39.309640585Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 521606bd193db9fc106ef466e5d66535c66a192546ee15191518e988b373cc9f
     name: py-kube-downscaler
@@ -484,7 +508,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 23.2.0
-    created: "2026-03-02T12:03:53.111467294Z"
+    created: "2026-03-02T12:47:39.30933016Z"
     description: A Helm chart for deploying py-kube-downscaler
     digest: 67a0c5a7567445c4289c2c6b9981356db3a2754862dd1e55c3cb8af23ffad46a
     name: py-kube-downscaler
@@ -497,7 +521,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.8
-    created: "2026-03-02T12:03:53.360649596Z"
+    created: "2026-03-02T12:47:39.546447809Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -527,7 +551,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.7
-    created: "2026-03-02T12:03:53.326431961Z"
+    created: "2026-03-02T12:47:39.514106184Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -557,7 +581,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.6
-    created: "2026-03-02T12:03:53.292034588Z"
+    created: "2026-03-02T12:47:39.485860354Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -587,7 +611,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.5
-    created: "2026-03-02T12:03:53.265546595Z"
+    created: "2026-03-02T12:47:39.454224885Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -617,7 +641,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.4
-    created: "2026-03-02T12:03:53.232793979Z"
+    created: "2026-03-02T12:47:39.429971325Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -647,7 +671,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-03-02T12:03:53.2078861Z"
+    created: "2026-03-02T12:47:39.405749736Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -677,7 +701,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.2
-    created: "2026-03-02T12:03:53.18417137Z"
+    created: "2026-03-02T12:47:39.381760235Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -707,7 +731,7 @@ entries:
       catalog.cattle.io/display-name: Rancher Metrics
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-03-02T12:03:53.160226298Z"
+    created: "2026-03-02T12:47:39.358136801Z"
     dependencies:
     - name: caas-project-monitoring
       repository: oci://ghcr.io/caas-team/charts
@@ -733,4 +757,4 @@ entries:
     urls:
     - https://caas-team.github.io/helm-charts/rancher-metrics/rancher-metrics-0.0.1.tgz
     version: 0.0.1
-generated: "2026-03-02T12:03:53.098612151Z"
+generated: "2026-03-02T12:47:39.295096637Z"
