@@ -34,7 +34,7 @@ jobs:
 
       - name: Fetch and Store New Chart
         run: |
-          helm pull oci://ghcr.io/caas-team/charts/${{ github.event.client_payload.chart }} --version ${{ github.event.client_payload.version }}
+          helm pull oci://ghcr.io/caas-team/charts/${{ github.event.client_payload.chart }} --version ${{ github.event.client_payload.version }} --prov
 
       - name: Update Index File
         run: |
