@@ -1,0 +1,68 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/category: integration-delivery
+  artifacthub.io/license: GPL-3.0-only
+  artifacthub.io/links: |
+    - name: source
+      url: https://github.com/caas-team/GoKubeDownscaler
+    - name: support
+      url: https://github.com/caas-team/GoKubeDownscaler/issues
+    - name: website
+      url: https://kube-downscaler.io
+    - name: community
+      url: https://inviter.co/kube-downscaler
+  artifacthub.io/signKey: |
+    fingerprint: F4B1EC1EE0717E39230556C1AF7D6111431090B4
+    url: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/deployments/chart/signing-key.asc
+apiVersion: v2
+appVersion: 1.4.1
+description: A Helm chart for deploying the go-kube-downscaler, a controller that
+  automatically scales Kubernetes workloads down to zero during inactive periods to
+  optimize cloud costs.
+home: https://kube-downscaler.io
+icon: https://raw.githubusercontent.com/caas-team/GoKubeDownscaler/refs/heads/main/logo/kubedownscaler.svg
+keywords:
+- - kube-downscaler
+- - go
+- - downscaling
+- - cost-optimization
+- - autoscaling
+maintainers:
+- - email: jonathan.mayer@telekom.de
+  name: jonathan-mayer
+  url: https://github.com/jonathan-mayer
+- - email: jan.taeuber@telekom.de
+  name: JTaeuber
+  url: https://github.com/JTaeuber
+- - email: samuel-esp@hotmail.it
+  name: samuel-esp
+  url: https://github.com/samuel-esp
+name: go-kube-downscaler
+sources:
+- - https://github.com/caas-team/GoKubeDownscaler
+type: application
+version: 1.4.1
+
+...
+files:
+  go-kube-downscaler-1.4.1.tgz: sha256:7f002813b50257443da98f626ae96c65617dd894eca9c9f3960d3f8bab3d9f77
+
+-----BEGIN PGP SIGNATURE-----
+
+wsG5BAEBCgBtBYJqurDiCRCvfWERQxCQtEUUAAAAAAAcACBzYWx0QG5vdGF0aW9u
+cy5vcGVucGdwanMub3JnTAZYyGJuOrD5ZznYs7SzJ8vmuBqtCnETawH45iFDqsIW
+IQT0sewe4HF+OSMFVsGvfWERQxCQtAAAgKsP/iVmQdW/dkx/nO7N6w1YtMeHRRTf
+IY3lxN7lgLBcirsTWg7Q9gGGhHeihBopzDj0c0eGmz9HbYeUmSPUe8iMIudX3KnA
+6hJ3vMOLukmmdeQ12dL6CCSiCwJ03h8XTaz82zwFRcuKfbT37Pm3pW1/BEsjRyuH
+d112IOEPVBhWx7lJfWGFPiy/MkjqPZQ5H58LQEUac7vzanSl1+hxN1Y/w2U6YSbz
+rtoAob1axvCVGEKE6dTwFaplrVWG6P2ClEyxfDd36TnQqULn4i6TTC0BGpFYSYGZ
+7wNP/xvaNLL4hFxH0sigHHYVQXNGsr7yA8BahnlKJtL5gdA0K5p/FhVy0LgMLsnn
+WlpZquTt1XJ7TN9xBqtij3KlWkCMuRpWk8BmUgfEYt8LfgbqUx9Z+dLTeobDJJBz
+tHBmDG3bXGX+s3RDD7U7p7Y86UzoollLdfeZLZLLPHCgDjs6GQBPCDfGrbJPBuDr
+viWrNLiRGUwDfDvClwi5/NZ+Wbg0AnEYPyWEDXwx7c+mj116MCbvD66UgOwboi50
+BaX9dwR48g8hQ7GDQ4c7yhDNKunCCMaJb4IyC2wErdXNkOXJuAWcKFN97+rgHFEV
+c6iilLNFA++awqa1jqz872Izct/2fCaRYKmTHb4/v86K8m8OvuDE0ZSFNZ9Lp60+
+xpPNO3msreOqL/Xv
+-----END PGP SIGNATURE-----
